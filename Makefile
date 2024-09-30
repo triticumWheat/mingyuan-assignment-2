@@ -3,5 +3,5 @@ install:
 	cd frontend && npm install
 
 run:
-	cd frontend && npm start &
+	cd kmeans-visualizer && npm start &
 	cd backend && python app.py
