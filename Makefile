@@ -1,6 +1,6 @@
 install:
 	pip install -r backend/requirements.txt
-	cd frontend && npm install
+	cd kmeans-visualizer && npm install
 
 run:
 	cd kmeans-visualizer && npm start &
